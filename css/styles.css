@@ -12,7 +12,7 @@ body{
 	font-family: 'Comfortaa', 'Arial', cursive;
 }
 .container{
-	width: 1150px;
+	width: 980px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -148,6 +148,16 @@ body{
 	}
 	.meals__item{
 		text-align: center;
+	}
 }
-
+@media (max-width: 320px){
+	.container{
+		width: 280px;
+	}
+	.meals__item, .meals__item img{
+		width: 260px;
+	}
+	.meals__item img{
+		height: 160px;
+	}
 }
